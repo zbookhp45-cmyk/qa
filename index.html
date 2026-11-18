@@ -1,0 +1,480 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarZone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+     <link rel="icon" href="car.png">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo">CarZone<span>.</span></a>
+
+    <nav class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#products">Cars</a>
+        <a href="#categories">Models</a>
+        <a href="#about">About us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact us</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="icon-btn" id="cartOpen">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span id="cartCount">0</span>
+        </button>
+
+        <button class="menu-btn" id="menuButton">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content reveal">
+            <span class="eyebrow">DRIVE YOUR OWN STORY</span>
+
+            <h1>Make every<br>ride <span>special.</span></h1>
+
+            <p>Discover reliable cars for your family, daily commute, and business needs.</p>
+
+            <div class="hero-buttons">
+                <a href="#products" class="btn">
+                    Shop now <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#about" class="text-link">See more</a>
+            </div>
+
+            <div class="hero-stats">
+                <div>
+                    <strong class="counter" data-target="150">0</strong>
+                    <span>+ Cars Sold</span>
+                </div>
+
+                <div>
+                    <strong class="counter" data-target="12">0</strong>
+                    <span>+ Models</span>
+                </div>
+
+                <div>
+                    <strong class="counter" data-target="99">0</strong>
+                    <span>% Happy Drivers</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual reveal">
+            <div class="hero-glow"></div>
+
+            <img src="nexia 3.jpg" alt="CarZone Hero Car">
+        </div>
+
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products section" id="products">
+
+        <div class="section-heading reveal">
+            <div>
+                <span class="eyebrow">OUR CARS</span>
+                <h2>Choose your <span>car.</span></h2>
+            </div>
+
+            <p>Popular and trusted vehicles ready for the road.</p>
+        </div>
+
+        <div class="product-grid">
+
+            <article class="product-card reveal">
+                <div class="product-image">
+                    <span class="product-tag">POPULAR</span>
+                    <img src="nexia 3.jpg" alt="Nexia 3">
+
+                    <button class="quick-add order-button" data-id="1">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+
+                <div class="product-info">
+                    <span>SEDAN • AUTOMATIC</span>
+                    <h3>Nexia 3</h3>
+
+                    <div class="product-bottom">
+                        <strong>145,000,000 UZS</strong>
+                        <button class="order-button" data-id="1">Add to bag</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card reveal">
+                <div class="product-image">
+                    <span class="product-tag">BEST</span>
+                    <img src="gentra.webp" alt="Gentra">
+
+                    <button class="quick-add order-button" data-id="2">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+
+                <div class="product-info">
+                    <span>COMFORT SEDAN</span>
+                    <h3>Gentra</h3>
+
+                    <div class="product-bottom">
+                        <strong>175,000,000 UZS</strong>
+                        <button class="order-button" data-id="2">Add to bag</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card reveal">
+                <div class="product-image">
+                    <span class="product-tag">BUSINESS</span>
+                    <img src="damas.jpg" alt="Damas">
+
+                    <button class="quick-add order-button" data-id="3">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+
+                <div class="product-info">
+                    <span>COMMERCIAL VAN</span>
+                    <h3>Damas</h3>
+
+                    <div class="product-bottom">
+                        <strong>98,000,000 UZS</strong>
+                        <button class="order-button" data-id="3">Add to bag</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card reveal">
+                <div class="product-image">
+                    <span class="product-tag">CLASSIC</span>
+                    <img src="nexia2.webp" alt="Nexia 2">
+
+                    <button class="quick-add order-button" data-id="4">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+
+                <div class="product-info">
+                    <span>RELIABLE SEDAN</span>
+                    <h3>Nexia 2</h3>
+
+                    <div class="product-bottom">
+                        <strong>85,000,000 UZS</strong>
+                        <button class="order-button" data-id="4">Add to bag</button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="collection section" id="categories">
+
+        <div class="section-heading reveal">
+            <div>
+                <span class="eyebrow">CHOOSE YOUR STYLE</span>
+                <h2>Cars for every <span>road.</span></h2>
+            </div>
+        </div>
+
+        <div class="category-grid">
+
+            <a href="#products" class="category-card category-one reveal">
+                <img src="damas.jpg" alt="Comfort Sedans">
+
+                <div>
+                    <span>01 / COMFORT</span>
+                    <h3>Comfort Sedans</h3>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </a>
+
+            <a href="#products" class="category-card category-two reveal">
+                <img src="nexia 3.jpg" alt="City Cars">
+
+                <div>
+                    <span>02 / DAILY</span>
+                    <h3>City Cars</h3>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </a>
+
+            <a href="#products" class="category-card category-three reveal">
+                <img src="gentra.webp" alt="Commercial Vans">
+
+                <div>
+                    <span>03 / BUSINESS</span>
+                    <h3>Commercial Vans</h3>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+
+        <div class="about-image reveal">
+            <img src="nexia2.webp" alt="CarZone Showroom">
+        </div>
+
+        <div class="about-content reveal">
+            <span class="eyebrow">ABOUT US</span>
+
+            <h2>Trusted cars.<br><span>Smooth journeys.</span></h2>
+
+            <p>
+                At CarZone, we believe buying a car should be simple and honest.
+                We offer inspected Nexia, Gentra, and Damas models ready for your next adventure.
+            </p>
+
+            <a href="#contact" class="btn">
+                Contact us <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section" id="reviews">
+
+        <div class="section-heading reveal">
+            <div>
+                <span class="eyebrow">CUSTOMER REVIEWS</span>
+                <h2>What our <span>drivers say.</span></h2>
+            </div>
+
+            <p>Real feedback from people who bought their cars at CarZone.</p>
+        </div>
+
+        <div class="category-grid">
+
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <span class="product-tag">GENTRA OWNER</span>
+                    <img src="gentra owner.jpg" alt="Customer 1">
+                </div>
+
+                <div class="product-info">
+                    <span>★★★★★ VERIFIED BUYER</span>
+                    <h3>Azimova Muattar</h3>
+                    <p>"Bought my black Gentra from CarZone. Clean history, fast service, and great price!"</p>
+                </div>
+            </div>
+
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <span class="product-tag">NEXIA 3 OWNER</span>
+                    <img src="istockphoto-2223787701-612x612.jpg" alt="Customer 2">
+                </div>
+
+                <div class="product-info">
+                    <span>★★★★★ VERIFIED BUYER</span>
+                    <h3>Jasur Rahimov</h3>
+                    <p>"Very polite team! My Nexia 3 drives smoothly and all documents were ready in one hour."</p>
+                </div>
+            </div>
+
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <span class="product-tag">DAMAS OWNER</span>
+                    <img src="people.webp" alt="Customer 3">
+                </div>
+
+                <div class="product-info">
+                    <span>★★★★★ VERIFIED BUYER</span>
+                    <h3>Madina Alieva</h3>
+                    <p>"We got a Damas for our family business. Best condition and honest deal in town."</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter section" id="contact">
+
+        <div>
+            <span class="eyebrow">STAY CONNECTED</span>
+            <h2>Join <span>CarZone.</span></h2>
+            <p>Get updates about our latest cars and offers.</p>
+        </div>
+
+        <form id="newsletterForm">
+            <input type="email" placeholder="Your email address" required>
+
+            <button type="submit">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </form>
+
+    </section>
+
+</main>
+
+<!-- NEW FOOTER -->
+<footer class="footer">
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo">CarZone<span>.</span></a>
+
+            <p>
+                Find your perfect car with CarZone.
+                Quality vehicles, honest prices and
+                a better driving experience.
+            </p>
+
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#products">Our Cars</a>
+            <a href="#categories">Models</a>
+            <a href="#about">About Us</a>
+            <a href="#reviews">Reviews</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Our Services</h3>
+
+            <a href="#products">Car Sales</a>
+            <a href="#products">Car Selection</a>
+            <a href="#about">Customer Support</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Get In Touch</h3>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +998 94 484 15 11
+            </p>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                info@carzone.uz
+            </p>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Namangan, Uzbekistan
+            </p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>© 2026 CarZone. All rights reserved.</p>
+        <a href="#home">Back to top</a>
+    </div>
+
+</footer>
+
+<!-- CART OVERLAY -->
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<!-- CART PANEL -->
+<div class="cart-panel" id="cartPanel">
+
+    <div class="cart-header">
+        <h2>Your Garage (<span id="panelCount">0</span>)</h2>
+
+        <button class="modal-close" id="cartClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+        <p class="empty-cart">Your garage is empty.</p>
+    </div>
+
+    <div class="cart-footer">
+
+        <div class="total-row">
+            <strong>Total:</strong>
+            <strong id="cartTotal">0 UZS</strong>
+        </div>
+
+        <button class="btn checkout-btn" id="checkoutButton">
+            Continue <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+</div>
+
+<!-- CHECKOUT MODAL -->
+<div class="checkout-modal" id="checkoutModal">
+
+    <form class="checkout-box" id="checkoutForm">
+
+        <button type="button" class="modal-close" id="modalClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <h2>Complete your order</h2>
+
+        <input
+            type="text"
+            id="customerName"
+            placeholder="Your full name"
+            required
+        >
+
+        <input
+            type="tel"
+            id="customerPhone"
+            placeholder="Your phone number"
+            required
+        >
+
+        <button type="submit" class="btn">
+            Confirm order
+        </button>
+
+    </form>
+
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<!-- BACK TO TOP -->
+<button class="back-top" id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
